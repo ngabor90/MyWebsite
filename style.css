@@ -24,6 +24,14 @@ body{
     box-shadow: 5px 5px 10px rgb(5, 5, 5);
 }
 
+.frontend{
+    box-shadow: 5px 5px 10px grey;
+}
+
+.frontend:hover{
+    box-shadow: 5px 5px 10px rgb(37, 37, 37)
+}
+
 #link{
     width: 300px;
 }
@@ -35,11 +43,12 @@ body{
 }
 
 h3{
-    text-decoration: 20px;
+    text-decoration-style: 20px;
 }
 
 h1{
     font-weight: bold;
+    color: rgb(74, 82, 64);
 }
 
 .textIndent{
@@ -56,7 +65,7 @@ ul li{
     color: rgb(198, 202, 237);
 }
 
-.card{
+.card-logo{
     margin: auto;
     background-color: rgb(74, 82, 64);
     border-radius: 10%;
@@ -64,7 +73,7 @@ ul li{
     width: 60%;
 }
 
-.card:hover{
+.card-logo:hover{
     box-shadow: 5px 5px 10px rgb(41, 40, 40);
 }
 
@@ -76,4 +85,12 @@ ul li{
 
 .piclogo{
     padding-left: 10px;
+}
+
+.project{
+    margin: auto;
+}
+
+h4, p{
+    color: rgb(74, 82, 64);
 }
