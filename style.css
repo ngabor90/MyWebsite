@@ -14,12 +14,9 @@ body{
 }
 
 .logo{
-    display: block;
-    margin: auto;
-    margin-bottom: 20px;
-    border-radius: 10%;
-    border: dotted 1px grey;
-    box-shadow: 5px 5px 10px grey;
+    display: inline-block;
+    margin: 50px 40px;
+    box-shadow: 5px 5px 10px rgb(56, 55, 55);
 }
 
 .logo:hover{
