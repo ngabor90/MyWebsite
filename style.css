@@ -8,19 +8,23 @@ body{
 .buttons{
     color: rgb(74, 82, 64);
     font-weight: bold;
-    margin-right: 80px;
     text-align: center;
-    padding-left: 100px;
 }
 
 .logo{
     display: inline-block;
     margin: 50px 40px;
     box-shadow: 5px 5px 10px rgb(56, 55, 55);
+    border-radius: 10%;
 }
 
-.logo:hover{
+.logo:hover, .englishCV:hover{
     box-shadow: 5px 5px 10px rgb(5, 5, 5);
+}
+
+.englishCV{
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px rgb(56, 55, 55);
 }
 
 .frontend{
