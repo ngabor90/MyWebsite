@@ -11,6 +11,13 @@ body{
     text-align: center;
 }
 
+@media (max-width: 297px) {
+    .navbar-toggler {
+      order: -1;
+      margin-left: auto;
+    }
+  }
+
 .logo{
     display: inline-block;
     margin: 50px 40px;
