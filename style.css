@@ -36,10 +36,20 @@ body{
 
 .frontend{
     box-shadow: 5px 5px 10px grey;
+    width: 70%;
+    display: block;
+    margin: auto;
 }
 
-.frontend:hover{
-    box-shadow: 5px 5px 10px rgb(37, 37, 37)
+.pic:hover{
+    box-shadow: 5px 5px 10px rgb(37, 37, 37);
+}
+
+.document{
+    box-shadow: 5px 5px 10px grey;
+    width: 650px;
+    display: block;
+    margin: auto;
 }
 
 #link{
@@ -50,6 +60,8 @@ body{
     box-shadow: 5px 5px 10px grey;
     border-radius: 10%;
     width: 80%;
+    display: block;
+    margin: auto;
 }
 
 h3{
