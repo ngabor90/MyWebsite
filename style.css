@@ -93,6 +93,7 @@ ul li{
     background-color: rgb(74, 82, 64);
     box-shadow: 5px 5px 10px grey;
     border-radius: 0%;
+    padding: 20px;
 }
 
 .card-logo2{
@@ -100,6 +101,7 @@ ul li{
     background-color: rgb(61, 59, 142);
     box-shadow: 5px 5px 10px grey;
     border-radius: 0%;
+    padding: 20px;
 }
 
 .card-logo:hover{
@@ -112,6 +114,10 @@ ul li{
 
 .studyColor{
     color: rgb(250, 243, 221);
+}
+
+.studyContent{
+    font-size: large;
 }
 
 .badge{
