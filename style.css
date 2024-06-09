@@ -137,3 +137,9 @@ ul li{
 h4, p{
     color: rgb(74, 82, 64);
 }
+
+#email, #phone{
+    color: rgb(250, 243, 221);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
