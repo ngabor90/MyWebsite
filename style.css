@@ -34,11 +34,11 @@ body{
     box-shadow: 5px 5px 10px rgb(56, 55, 55);
 }
 
-.frontend{
+.frontend {
     box-shadow: 5px 5px 10px grey;
-    width: 70%;
     display: block;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .pic:hover{

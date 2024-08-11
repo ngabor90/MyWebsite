@@ -1,0 +1,41 @@
+<div class="image-container" style="margin-bottom: 100px;">
+        <img class="img-fluid w-100 h-100" src="képek/close-up-portrait-beautiful-jewish-woman-isolated-studio_2.jpg"
+            alt="indexKép">
+        <div class="overlay">
+            <a class="btn btn-secondary imageButton" href="https://lashbyjudie.salonic.hu/">Időpontfoglalás</a>
+        </div>
+    </div>
+
+.imageButton {
+    display: flex;
+    width: 306px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 60px;
+    background-color: #F5E9DE;
+    position: absolute;
+    top: 65%;
+    left: 51%;
+    transform: translate(-200%, -80%);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #808285;
+}
+
+/* Tablet és laptop nézetre */
+@media (max-width: 1320px) {
+    .imageButton {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 20px auto;
+        /* Középre helyezi a gombot */
+        display: block;
+        /* Blokkszintű elemként jeleníti meg */
+        background-color: #87B1A1;
+    }
+}
