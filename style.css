@@ -93,25 +93,39 @@ ul li {
 .card-logo {
     margin: auto;
     background-color: rgb(74, 82, 64);
-    box-shadow: 5px 5px 10px grey;
-    border-radius: 0%;
-    padding: 20px;
+    box-shadow: 5px 5px 10px rgb(42, 42, 42);
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
 }
 
 .card-logo2 {
     margin: auto;
     background-color: rgb(61, 59, 142);
-    box-shadow: 5px 5px 10px grey;
-    border-radius: 0%;
-    padding: 20px;
+    box-shadow: 5px 5px 10px rgb(42, 42, 42);
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .card-logo:hover {
-    box-shadow: 5px 5px 10px rgb(41, 40, 40);
+    box-shadow: 5px 5px 10px rgb(10, 10, 10);
 }
 
 .card-logo2:hover {
-    box-shadow: 5px 5px 10px rgb(41, 40, 40);
+    box-shadow: 5px 5px 10px rgb(10, 10, 10);
 }
 
 .studyColor {
@@ -120,6 +134,7 @@ ul li {
 
 .studyContent {
     font-size: large;
+    font-weight: bold;
 }
 
 .badge {
