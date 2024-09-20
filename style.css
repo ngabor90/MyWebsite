@@ -13,6 +13,11 @@ body {
     text-align: center;
 }
 
+.buttons:hover {
+    color: rgb(14, 13, 13);
+    font-size: 1.05rem;
+}
+
 @media (max-width: 297px) {
     .navbar-toggler {
         order: -1;
@@ -37,7 +42,7 @@ body {
     box-shadow: 5px 5px 10px rgb(56, 55, 55);
 }
 
-.hunCV{
+.hunCV {
     width: 200px;
     margin-bottom: 50px;
 }
@@ -200,7 +205,7 @@ p,
     }
 
     .textIndent {
-        text-indent: 0; 
+        text-indent: 0;
     }
 }
 
