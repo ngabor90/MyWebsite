@@ -14,11 +14,6 @@ html {
     z-index: 1;
 }
 
-#theme-switcher:hover {
-    background-color: #facccc;
-    color: rgb(29, 24, 24);
-}
-
 #dark {
     display: none;
 }

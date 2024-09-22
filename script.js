@@ -13,3 +13,19 @@ document.getElementById("accept-cookies").addEventListener("click", function() {
 document.getElementById("reject-cookies").addEventListener("click", function() {
     document.getElementById("cookie-banner").style.display = "none";
 });
+
+
+//Navbar kezelés
+document.addEventListener('DOMContentLoaded', function () {
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.querySelector('#navbarNav');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (navbarCollapse.classList.contains('show')) {
+                navbarToggler.click(); // Ezzel bezárjuk a menüt
+            }
+        });
+    });
+});
